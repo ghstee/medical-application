@@ -27,6 +27,16 @@
             android:layout_height="1dp"
             android:background="@color/grey_back" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тип приступа"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/blue"
+            android:textSize="22dp"/>
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,31 +45,127 @@
             <androidx.appcompat.widget.AppCompatRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first"
-                android:textSize="18dp"/>
+                android:layout_marginVertical="5dp"
+                android:text="Генерализированный судорожный приступ"
+                android:textSize="18dp" />
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first"
-                android:textSize="18dp"/>
+                android:text="Бессудорожный приступ с потерей сознания"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"/>
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="first"
-                android:textSize="18dp"/>
+                android:text="Бессудорожный приступ без потери сознания"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="парциальный (фокальный) приступ без генерализации"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Серийный приступ (или эпистатус)"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"/>
         </RadioGroup>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/grey_back" />
+            android:background="@color/grey_back"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Время и длительность приступа"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/blue"
+            android:textSize="22dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Введите текст"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_back"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Препараты и их дозировка"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/blue"
+            android:textSize="22dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Введите текст"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_back"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Примечания"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginVertical="15dp"
+            android:textColor="@color/blue"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="16dp"
+            android:text="В этом поле рекомендуется подробно описывать приступ, а также указывать наблюдаемые побочные явления, провоцирующие факторы и т.д."
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Введите текст"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_back"
+            android:layout_marginTop="10dp"
+            />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginVertical="20dp"
             android:layout_gravity="center"
             android:text="Сохранить запись"
             android:textColor="@color/white"
